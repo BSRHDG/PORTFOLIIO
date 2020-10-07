@@ -52,6 +52,13 @@ ul {
   padding-left: 0;
 }
 
+button {
+  background-color: transparent;
+  cursor: pointer;
+  border: none;
+  outline: none;
+}
+
 /* Typography */
 
 h1 {
@@ -101,9 +108,9 @@ p {
   font-weight: var(--weight-semi-bold);
 }
 
-.navbar__logo__icon {
-  width: 16px;
-  height: 16px;
+.icon {
+  width: 30px;
+  height: 30px;
 }
 
 .navbar__menu__item {
@@ -119,4 +126,28 @@ p {
 
 .navbar__menu__item:hover {
   background-color: var(--color-dark-grey);
+}
+
+/* Home */
+#home {
+  background: url("imgs/home_background.png") center / cover no-repeat;
+  padding: 40px;
+  text-align: center;
+}
+
+.home__avatar {
+  width: 250px;
+  height: 250px;
+  border-radius: 50%;
+  border: 2px solid var(--color-light-white);
+}
+
+.home__contact {
+  color: var(--color-white);
+  font-size: var(--font-regular);
+  font-weight: var(--weight-bold);
+  margin: 24px;
+  padding: 8px 12px;
+  border: 2px solid var(--color-white);
+  border-radius: 4px;
 }
