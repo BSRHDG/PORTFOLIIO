@@ -6,10 +6,10 @@
     <title>BSR's Portfolio</title>
     <meta name="description" content="Portfolio for software engineer BSR" />
     <meta name="author" content="BSR" />
-    <script 
+    <script
       src="https://kit.fontawesome.com/d282b26516.js"
-      crossorigin="anonymous">
-    </script>
+      crossorigin="anonymous"
+    ></script>
     <link rel="icon" type="image/png" href="imgs/goldmoon_logo_Black.png" />
     <link
       href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,700;1,300&display=swap"
@@ -23,7 +23,7 @@
     <!-- Navbar -->
     <nav id="navbar">
       <div class="navbar__logo">
-        <img class="icon" src="imgs/goldmoon_logo_Black.png" alt="" >
+        <img class="icon" src="imgs/goldmoon_logo_Black.png" alt="" />
         <a href="#">BSR</a>
       </div>
       <ul class="navbar__menu">
@@ -38,9 +38,10 @@
     <!-- Home -->
     <section id="home">
       <img
-          src="imgs/HDG_resize.png"
-          alt="BSR's profile photo" 
-          class="home__avatar" />
+        src="imgs/HDG_resize.png"
+        alt="BSR's profile photo"
+        class="home__avatar"
+      />
       <h1 class="home__title">Hello, <br />I'm Dream Coder</h1>
       <h2 class="home__description">
         A Software Engineer currently residing in Korea
@@ -49,57 +50,51 @@
     </section>
 
     <!-- About -->
-  <section id="about" class="section">
-    <h1>About Me</h1>
-    <p>I'm frontend software engineer.</p>
-    
-    <div class="about__majors">
-      <div class="major">
-        <div class="major__icon">
-          <i class="fab fa-html5"></i>
-        </div>
-        <div class="major__title">HTML</div>
-        <div class="major__description">
-          HTML,CSS,javascript
-        </div>
-      </div>
-    
-      <div class="major">
-      <div class="major__icon">
-        <i class="fab fa-css3-alt"></i>
-      </div>
-      <div class="major__title">CSS</div>
-      <div class="major__description">
-        HTML,CSS,javascript
-      </div>
-      </div>
-  
-      <div class="major">
-    <div class="major__icon">
-      <i class="fab fa-js-square"></i>
-    </div>
-    <div class="major__title">javascript</div>
-    <div class="major__description">
-      HTML,CSS,javascript
-    </div>
+    <section id="about" class="section section__container">
+      <h1>About Me</h1>
+      <p>I'm frontend software engineer.</p>
 
+      <div class="about__majors">
+        <div class="major">
+          <div class="major__icon">
+            <i class="fab fa-html5"></i>
+          </div>
+          <div class="major__title">HTML</div>
+          <div class="major__description">HTML,CSS,javascript</div>
+        </div>
+
+        <div class="major">
+          <div class="major__icon">
+            <i class="fab fa-css3-alt"></i>
+          </div>
+          <div class="major__title">CSS</div>
+          <div class="major__description">HTML,CSS,javascript</div>
+        </div>
+
+        <div class="major">
+          <div class="major__icon">
+            <i class="fab fa-js-square"></i>
+          </div>
+          <div class="major__title">javascript</div>
+          <div class="major__description">HTML,CSS,javascript</div>
+        </div>
       </div>
-    </div>
-    
+
       <div class="about__SNS">
-      <div class="instagram">
-        <i class="fab fa-instagram"></i>
-        <p class="insta__description">My instagram link</p>
+        <div class="instagram">
+          <i class="fab fa-instagram"></i>
+          <p class="insta__description">My instagram link</p>
+        </div>
+        <div class="twitter">
+          <i class="fab fa-twitter-square"></i>
+          <p class="twitter__description">My twitter link</p>
+        </div>
       </div>
-      <div class="twitter">
-        <i class="fab fa-twitter-square"></i>
-        <p class="twitter__description">My twitter link</p>
-      </div>
-      </div>
-  </section>
+    </section>
 
     <!-- Skills -->
     <section id="skills" class="section">
+      <div class="section__container"></div>
       <h1>Skills</h1>
       <h2>Skills & Attributes</h2>
       <p>bla bla bla bla bla bla bla bla bla bla bla bla</p>
@@ -110,23 +105,27 @@
             <div class="skill__description">
               <span>HTML</span>
               <span>70%</span>
-            <div class="skill__bar">
-              <div class="skill__value"></div>
             </div>
+            <div class="skill__bar">
+              <div class="skill__value" style="width: 70%"></div>
+            </div>
+          </div>
+          <div class="skill">
             <div class="skill__description">
-              <span>CSS</span>
-              <span>30%</span>
+              <span>Css</span>
+              <span>50%</span>
+            </div>
             <div class="skill__bar">
-              <div class="skill__value"></div>
+              <div class="skill__value" style="width: 50%"></div>
             </div>
-            </div>
+          </div>
+          <div class="skill">
             <div class="skill__description">
               <span>javascript</span>
-              <span>20%</span>
-              <div class="skill__bar">
-                <div class="skill__value"></div>
-              </div>
+              <span>10%</span>
             </div>
+            <div class="skill__bar">
+              <div class="skill__value" style="width: 10%"></div>
             </div>
           </div>
         </div>
@@ -146,6 +145,7 @@
             </ul>
           </div>
         </div>
+      </div>
     </section>
 
     <!-- work -->
@@ -153,24 +153,32 @@
       <h1>My work</h1>
       <h3>projects</h3>
       <div class="work__categories">
-        <button class="category__btn">All<span class="category__count">5</span></button>
-        <button class="category__btn">Front-end<span class="category__count">2</span></button>
-        <button class="category__btn">Back-end<span class="category__count">2</span></button>
-        <button class="category__btn">Mobile<span class="category__count">1</span></button>
+        <button class="category__btn">
+          All<span class="category__count">5</span>
+        </button>
+        <button class="category__btn">
+          Front-end<span class="category__count">2</span>
+        </button>
+        <button class="category__btn">
+          Back-end<span class="category__count">2</span>
+        </button>
+        <button class="category__btn">
+          Mobile<span class="category__count">1</span>
+        </button>
       </div>
 
       <div class="work__projects">
         <a
-          href="https://github.com/BSRHDG/LESSON1" 
+          href="https://github.com/BSRHDG/LESSON1"
           class="project"
           target="blank"
         >
-          <img src="imgs/sample_resize.png" alt="sample_resize">
+          <img src="imgs/sample_resize.png" alt="sample_resize" />
           <div class="project__description">
             <h3>first sample</h3>
             <span>Clone coding with HTML and CSS</span>
           </div>
-      </a>
+        </a>
       </div>
     </section>
 
@@ -186,9 +194,7 @@
           <i class="fab fa-linkedin"></i>
         </a>
       </div>
-      <p class="contact__rights">
-        2020 Noob coder BSR All rights reserved
-      </p>
+      <p class="contact__rights">2020 Noob coder BSR All rights reserved</p>
     </section>
   </body>
 </html>
