@@ -145,6 +145,11 @@ p {
   border: 2px solid var(--color-light-white);
 }
 
+.home__description,
+.home__title {
+  color: var(--color-white);
+}
+
 .home__contact {
   color: var(--color-white);
   font-size: var(--font-regular);
@@ -355,4 +360,31 @@ p {
   margin-left: -12px;
   margin-top: 8px;
   background-color: dark var(--color-dark-white);
+}
+
+/* contact */
+
+#contact {
+  background-color: var(--color-blue);
+}
+
+.contact__title,
+.contact__email,
+.contact__rights {
+  color: var(--color-white);
+}
+
+.contact__title {
+  margin: 32px;
+}
+
+.contact__links {
+  font-size: var(--font-large);
+  margin: 24px 0;
+  transition: var(--animation-duration) ease-in;
+}
+
+.contact__links i:hover {
+  transform: scale(1.2);
+  color: var(--color-black);
 }
