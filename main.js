@@ -13,7 +13,7 @@ document.addEventListener('scroll', () => {
     }
 })
 
-//function
+//functions
 function scrollIntoView(selector) {
     const scrollTo = document.querySelector(selector);
     scrollTo.scrollIntoView({behavior: 'smooth'});
@@ -36,3 +36,9 @@ ContactMeBtn.addEventListener('click',() => {
     scrollIntoView('#contact');
 })
 
+// Handle scrolling then fade-out home
+const fadeoutHome = document.querySelector('.home__container');
+const homeHeight = home.getBoundingClientRect().height;
+document.addEventListener('scroll', () => {
+    fadeoutHome.style.opacity = 1 - window.scrollY / homeHeight;
+});
