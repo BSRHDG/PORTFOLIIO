@@ -13,6 +13,12 @@ document.addEventListener('scroll', () => {
     }
 })
 
+// Navbar toggle button for small screen
+const NavbarToggleBtn = document.querySelector('.navbar__toggle-button');
+NavbarToggleBtn.addEventListener('click', ()=> {
+    navbarMenu.classList.toggle('open');
+})
+
 //functions
 function scrollIntoView(selector) {
     const scrollTo = document.querySelector(selector);
@@ -27,6 +33,7 @@ navbarMenu.addEventListener('click', (event) => {
     if(link == null) {
         return;
     }
+    navbarMenu.classList.remove('open');
     scrollIntoView(link);
 })
 
