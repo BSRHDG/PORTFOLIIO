@@ -131,13 +131,13 @@ p {
   cursor: pointer;
   border-radius: var(--size-border-radius);
 }
-
 .navbar__menu__item.active {
   border: 1px solid var(--color-white);
 }
 
 .navbar__menu__item:hover {
   background-color: var(--color-dark-grey);
+  border-color: var(--color-white);
 }
 
 .navbar__toggle-button {
