@@ -1,2 +1,2 @@
-# LESSON1
- 
+# portfolio
+ SEORI's portfolio
