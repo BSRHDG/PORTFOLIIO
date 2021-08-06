@@ -43,6 +43,7 @@ body {
   font-family: "Open Sans", sans-serif;
   margin: 0;
   cursor: default;
+  background-color: var(--color-dark-grey);
 }
 
 a {
@@ -196,6 +197,11 @@ p {
 }
 
 /* About */
+
+#about {
+  background-color: var(--color-dark-grey);
+}
+
 .about__majors {
   display: flex;
   justify-content: space-between;
@@ -225,7 +231,7 @@ p {
 
 .major__title,
 .major__description {
-  color: var(--color-grey);
+  color: var(--color-blue);
 }
 
 .major__description {
@@ -289,6 +295,11 @@ p {
 }
 
 /* Work */
+
+#work {
+  background-color: var(--color-white);
+}
+
 .work__categories {
   margin: 40px;
 }
