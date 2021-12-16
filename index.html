@@ -26,7 +26,7 @@
         <img class="icon" src="imgs/goldmoon_logo_Black.png" alt="" />
         <a href="#">BSR</a>
       </div>
-    
+
       <ul class="navbar__menu">
         <li class="navbar__menu__item active" data-link="#home">Home</li>
         <li class="navbar__menu__item" data-link="#about">About</li>
@@ -34,65 +34,79 @@
         <li class="navbar__menu__item" data-link="#work">My work</li>
         <li class="navbar__menu__item" data-link="#contact">contact</li>
       </ul>
-    
-    <!-- Toggle button-->
-    <button class="navbar__toggle-button">
-      <i class="fas fa-bars"></i>
-    </button>
 
+      <!-- Toggle button-->
+      <button class="navbar__toggle-button">
+        <i class="fas fa-bars"></i>
+      </button>
     </nav>
 
     <!-- Home -->
     <section id="home">
-    <div class="home__container">
+      <div class="home__container">
         <img
           src="imgs/My Back.png"
           alt="BSR's profile photo"
           class="home__avatar"
         />
-      <h1 class="home__title">Hello, <br />I'm FrontEnd Coder</h1>
-      <h2 class="home__description">
-      A Software Engineer currently residing in Korea
-      </h2>
-      <button class="home__contact">Contact Me</button>
-    </div>
+        <h1 class="home__title">Hello, <br />I'm FullStack Coder</h1>
+        <h2 class="home__description">
+          A Software Engineer currently residing in Korea
+        </h2>
+        <button class="home__contact">Contact Me</button>
+      </div>
     </section>
 
     <!-- About -->
     <section id="about" class="section section__container">
       <h1>About Me</h1>
-      <p>BAEK SEORI 백서리</p>
-      <p>frontend software engineer.</p>
-      <p>전기기사 취득 후 FRONTEND 독학 중.</p>
-      <p>JS와 REACT 를 주로 공부하려 합니다.</p>
-
+      <div class="aboutMe">
+        <p>BAEK SEORI 백서리</p>
+        <p>FullStack software engineer.</p>
+        <p>전기기사 취득 후 Front-end 독학</p>
+        <p>현재 광주 '스마트인재개발원' 인공지능 과정 수료중</p>
+        <p>Back-end 비롯 빅데이터, 인공지능 관련 기술 학습하고 있습니다.</p>
+      </div>
       <div class="about__majors">
         <div class="major">
           <div class="major__icon">
             <i class="fab fa-html5"></i>
           </div>
-          <div class="major__title">HTML</div>
-          <div class="major__description">HTML,CSS,javascript</div>
+          <div class="major__title">Front-end</div>
+          <div class="major__description">HTML, CSS, JavaScript</div>
         </div>
 
         <div class="major">
           <div class="major__icon">
-            <i class="fab fa-css3-alt"></i>
+            <i class="fas fa-database"></i>
           </div>
-          <div class="major__title">CSS</div>
-          <div class="major__description">HTML,CSS,javascript</div>
+          <div class="major__title">Back-end</div>
+          <div class="major__description">mySQL, Python, JSP/Spring, AI</div>
         </div>
 
         <div class="major">
           <div class="major__icon">
-            <i class="fab fa-js-square"></i>
+            <i class="fab fa-android"></i>
           </div>
-          <div class="major__title">javascript</div>
-          <div class="major__description">HTML,CSS,javascript</div>
+          <div class="major__title">Android</div>
+          <div class="major__description">Android Studio , JAVA</div>
         </div>
       </div>
 
-      <div class="about__SNS">
+      <div class="about__com">
+        <div class="about__smhrd">
+          <img src="imgs/smhrd_logo.png" alt="smhrd" class="smhrd__logo" />
+          <div class="smhrd__description">
+            <p class="smhrd__title">
+              currently studying at 'Smart Human Resources Development' as a
+              student.
+            </p>
+            <p class="smhrd__period">2021 Aug - Until 2022 Jan</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- <div class="about__SNS">
         <div class="instagram">
           <i class="fab fa-instagram"></i>
           <p class="insta__description">My instagram link (추후 연결..)</p>
@@ -101,7 +115,7 @@
           <i class="fab fa-twitter-square"></i>
           <p class="twitter__description">My twitter link(추후 연결..)</p>
         </div>
-      </div>
+      </div> -->
     </section>
 
     <!-- Skills -->
@@ -109,22 +123,34 @@
       <div class="section__container"></div>
       <h1>Skills</h1>
       <h2>Skills & Attributes</h2>
-      <p>bla bla bla bla bla bla bla bla bla bla bla bla</p>
+      <p>
+        현재 스마트인재개발원에서 배운 언어와 기술은 이러한 것들이 있으며 앞으로
+        역량을 더 키워갈 예정입니다.
+      </p>
       <div class="skillset">
         <div class="skillset__left">
           <h3 class="skillset__title">skills</h3>
           <div class="skill">
             <div class="skill__description">
               <span>HTML</span>
-              <span>70%</span>
+              <span>95%</span>
             </div>
             <div class="skill__bar">
-              <div class="skill__value" style="width: 70%"></div>
+              <div class="skill__value" style="width: 95%"></div>
             </div>
           </div>
           <div class="skill">
             <div class="skill__description">
-              <span>Css</span>
+              <span>CSS</span>
+              <span>90%</span>
+            </div>
+            <div class="skill__bar">
+              <div class="skill__value" style="width: 90%"></div>
+            </div>
+          </div>
+          <div class="skill">
+            <div class="skill__description">
+              <span>JavaScript</span>
               <span>50%</span>
             </div>
             <div class="skill__bar">
@@ -133,11 +159,38 @@
           </div>
           <div class="skill">
             <div class="skill__description">
-              <span>javascript</span>
-              <span>10%</span>
+              <span>JAVA</span>
+              <span>65%</span>
             </div>
             <div class="skill__bar">
-              <div class="skill__value" style="width: 10%"></div>
+              <div class="skill__value" style="width: 65%"></div>
+            </div>
+          </div>
+          <div class="skill">
+            <div class="skill__description">
+              <span>Android</span>
+              <span>50%</span>
+            </div>
+            <div class="skill__bar">
+              <div class="skill__value" style="width: 50%"></div>
+            </div>
+          </div>
+          <div class="skill">
+            <div class="skill__description">
+              <span>JSP/Spring</span>
+              <span>30%</span>
+            </div>
+            <div class="skill__bar">
+              <div class="skill__value" style="width: 30%"></div>
+            </div>
+          </div>
+          <div class="skill">
+            <div class="skill__description">
+              <span>Machine Learning & Deep Learning</span>
+              <span>20%</span>
+            </div>
+            <div class="skill__bar">
+              <div class="skill__value" style="width: 20%"></div>
             </div>
           </div>
         </div>
@@ -146,14 +199,20 @@
             <h3 class="skillset__title">Tools</h3>
             <ul class="tools__list">
               <li><span>Visual Studio Code</span></li>
-              <li><span>ANY TOOLS</span></li>
+              <li><span>Eclipse</span></li>
+              <li><span>Android Studio</span></li>
+              <li><span>Jupyter</span></li>
+              <li><span>Github</span></li>
+              <li><span>Upgrating...</span></li>
             </ul>
           </div>
           <div class="Etc">
             <h3 class="skillset__title">Etc</h3>
             <ul class="etc__list">
-              <li><span>Git</span></li>
+              <li><span>컴퓨터활용능력 1급</span></li>
+              <li><span>Excel</span></li>
               <li><span>Upgrating...</span></li>
+              <li><span>정보처리기사 공부 예정</span></li>
             </ul>
           </div>
         </div>
@@ -162,38 +221,42 @@
 
     <!-- work -->
     <section id="work" class="section">
-    <div class="section__container">
-      <h1>My work</h1>
-      <h3>projects (단기목표)</h3>
-      <div class="work__categories">
-        <button class="category__btn active">
-          All<span class="category__count">5</span>
-        </button>
-        <button class="category__btn">
-          Front-end<span class="category__count">2</span>
-        </button>
-        <button class="category__btn">
-          Back-end<span class="category__count">2</span>
-        </button>
-        <button class="category__btn">
-          Mobile<span class="category__count">1</span>
-        </button>
-      </div>
+      <div class="section__container">
+        <h1>My work</h1>
+        <h3>projects (단기목표)</h3>
+        <div class="work__categories">
+          <button class="category__btn active">
+            All<span class="category__count">5</span>
+          </button>
+          <button class="category__btn">
+            Front-end<span class="category__count">2</span>
+          </button>
+          <button class="category__btn">
+            Back-end<span class="category__count">2</span>
+          </button>
+          <button class="category__btn">
+            Mobile<span class="category__count">1</span>
+          </button>
+        </div>
 
-      <div class="work__projects">
-        <a
-          href="https://github.com/BSRHDG/LESSON1"
-          class="project"
-          target="blank"
-        >
-          <img src="imgs/Sample_Home.png" alt="sample_resize" class="project__img"/>
-          <div class="project__description">
-            <h3>first sample</h3>
-            <span>Clone coding with HTML and CSS</span>
-          </div>
-        </a>
+        <div class="work__projects">
+          <a
+            href="https://github.com/BSRHDG/LESSON1"
+            class="project"
+            target="blank"
+          >
+            <img
+              src="imgs/Sample_Home.png"
+              alt="sample_resize"
+              class="project__img"
+            />
+            <div class="project__description">
+              <h3>first sample</h3>
+              <span>My Portfolio with HTML, CSS and JS</span>
+            </div>
+          </a>
+        </div>
       </div>
-    </div>
     </section>
 
     <!-- contact -->
@@ -217,4 +280,3 @@
     </button>
   </body>
 </html>
-
